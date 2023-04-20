@@ -24,3 +24,4 @@ Run model from MASTER.py. Main options to choose from:
 | `elecDemandScen` | Level of demand electrification. Options: `REFERENCE`, 'HIGH', 'MEDIUM'|
 | `balAuths` | `full` if run for all BAs in interconn, `state` if run at state resolution|
 | `yearIncDACS` | Default is `2100`- Year to include DACS - set beyond end period if don't want DACS|
+| `startYear`, `endYear`, `yearStepCE` | Year that planning starts, year that planning ends, and timestep (in years). Default is `2020`, `2051`, `15` |
