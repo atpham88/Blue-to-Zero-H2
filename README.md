@@ -16,7 +16,7 @@ Run model from MASTER.py. Main options to choose from:
 | `coOptH2` | `False` if run power system only, `True` if run joint power and hydrogen system|
 | `h2DemandScr` | `Reference` if use **Reference** scenario for hydrogen demand |
 | `interconn` | Three options `WECC`, `EI` (Eastern Interconnection), and `ERCOT` |
-| `reSourceMERRA` | `True` if use weather data from **MERRA**, otherwise use weather data from **NSRDB** and **WIND Toolkit*|
+| `reSourceMERRA` | `True` if use weather data from **MERRA**, otherwise use weather data from **NSRDB** and **WIND Toolkit**|
 | `metYear`| Year of meteorogical data. Dafult is `2012`|
 | `h2Pathway` | `blueToZero` or `Zero`|
 | `buildLimitsCase` | `1`: Reference, `2`: limited nuclear, `3`: limited CCS and nuclear, `4`:limited hydrogen storage, `5`:limited transmission|
