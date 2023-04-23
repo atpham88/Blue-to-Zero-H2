@@ -61,11 +61,11 @@ lbToShortTon = 2000
 def setKeyParameters():
 
     #### STUDY AREA AND METEOROLOGICAL-DEPENDENT DATA
-    coOptH2 = True                                     # Couple H2
+    coOptH2 = True                                      # Couple H2
     h2DemandScr = 'Reference'                           # Scenario for H2 demand
 
     metYear = 2012                                      # year of meteorological data used for demand and renewables
-    interconn = 'WECC'                                 # which interconnection to run - ERCOT, WECC, EI
+    interconn = 'WECC'                                  # which interconnection to run - ERCOT, WECC, EI
     balAuths = 'full'                                   # full: run for all BAs in interconn. TODO: add selection of a subset of BAs.
     electrifiedDemand = True                            # whether to import electrified demand futures from NREL's EFS
     elecDemandScen = 'REFERENCE'                        # 'REFERENCE','HIGH','MEDIUM' (ref is lower than med)
@@ -76,7 +76,10 @@ def setKeyParameters():
     reDownFactor = 10                                   # downscaling factor for W&S new CFs; 1 means full resolution, 2 means half resolution, 3 is 1/3 resolution, etc
 
     # ### HYDROGEN PATHWAY
-    h2Pathway = 'blueToZero'                                   # Or blueToZero
+    h2Pathway = 'blueToZero'                                            # reference: least cost solution (baseline)
+                                                                        # blueToZero: blue in WY only, no green before 2035, green everywhere after 2035
+                                                                        # blueToZeroWY: blue in WY only, no green before 2035, green in WY only after 2035
+                                                                        # blueToZeroSR: blue in WY only, no green before 2035, green everywhere after 2035, added SR
     # ### BUILD SCENARIO
     buildLimitsCase = 1                                                 # 1 = reference case,
                                                                         # 2 = limited nuclear,
@@ -136,9 +139,10 @@ def setKeyParameters():
     retirementCFCutoff = .3                             # retire units w/ CF lower than given value
     discountRate = 0.07                                 # fraction
     ptEligRetCF = ['Coal Steam']                        # which plant types retire based on capacity factor (economics)
-    incITC, incNuc, incSR = False, True, False           # include Investment Tax Credit or not;
+    incITC, incNuc, incSR = False, True, False          # include Investment Tax Credit or not;
                                                         # include nuclear as new investment option or not;
                                                         # include small modular reactors (SR) or not
+    if h2Pathway == 'blueToZeroSR': incSR = True
 
     # ### ED/UCED OPTIONS
     runFirstYear = False                                # whether to run first year of dispatch
@@ -482,11 +486,9 @@ def runCapacityExpansion(genFleet, demand, startYear, currYear, planningReserveM
 def createGAMSWorkspaceAndDatabase(runOnSC):
     # currDir = os.getcwd()
     if runOnSC:
-        gamsFileDir = '/home/anph/projects/BlueToZeroH2/Model/GAMS'
+        gamsFileDir = '/nfs/turbo/seas-mtcraig/anph/BlueToZeroH2/ModelGAMS'
         gamsSysDir = '/home/anph/gams_35_1'
     else:
-        # gamsFileDir = 'C:\\Users\\mtcraig\\Desktop\\Research\\Models\\MacroCEM\\GAMS'
-        # gamsSysDir = 'C:\\GAMS\\win64\\31.1'
         gamsFileDir = r"C:\Users\atpha\Documents\Postdocs\Projects\BlueToZeroH2\Model\GAMS"
         gamsSysDir = r"C:\GAMS\win64\36"
     ws = GamsWorkspace(working_directory=gamsFileDir, system_directory=gamsSysDir)
@@ -570,8 +572,7 @@ def ceSharedFeatures(db, peakDemandHour, genFleet, newTechs, planningReserve, di
     addGenParams(db, newTechs, techSet, mwToGW, lbToShortTon, zoneOrder, True)
     addTechCostParams(db, newTechs, coOptH2, techSet, stoTechSet, mwToGW)
     addRenewTechCFParams(db, renewTechSet, hourSet, newCfs)
-    addMaxNewBuilds(db, newTechs, thermalSet, stoTechSet, dacsSet, CCSSet, maxCapPerTech, coOptH2,
-                    h2Pathway, SMRSet, ElectrolyzerSet, currYear, mwToGW)
+    addMaxNewBuilds(db, newTechs, thermalSet, stoTechSet, dacsSet, CCSSet, maxCapPerTech, coOptH2, h2Pathway, SMRSet, ElectrolyzerSet, currYear, mwToGW)
     if ceOps == 'UC': addGenUCParams(db, newTechs, techSet, mwToGW, True)
     addResIncParams(db, regUpInc, flexInc, renewTechSet, hourSet)
     addSpinReserveEligibility(db, newTechs, techSet, True)

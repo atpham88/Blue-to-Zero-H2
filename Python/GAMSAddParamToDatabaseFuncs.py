@@ -177,8 +177,7 @@ def addBlockSOCScalars(db, scalars):
         add0dParam(db, 'pSOCScalar' + createHourSubsetName(block), scalars[block])
 
 ##### ADD LIMIT ON MAX NUMBER OF NEW BUILDS PER TECH (#)
-def addMaxNewBuilds(db, df, thermalSet, stoTechSet, dacsSet, CCSSet, maxCapPerTech, coOptH2,
-                    h2Pathway, SMRSet, ElectrolyzerSet, currYear, mwToGW):
+def addMaxNewBuilds(db, df, thermalSet, stoTechSet, dacsSet, CCSSet, maxCapPerTech, coOptH2, h2Pathway, SMRSet, ElectrolyzerSet, currYear, mwToGW):
     # Wind & solar
     for pt in ['Wind','Solar']:
         genCaps = df.loc[df['FuelType']==pt.capitalize(),'Capacity (MW)']
@@ -238,8 +237,10 @@ def addMaxNewBuilds(db, df, thermalSet, stoTechSet, dacsSet, CCSSet, maxCapPerTe
         # Electrolyzer
         pt = 'Electrolyzer'
         if h2Pathway == 'blueToZero':
-            if currYear <= 2035:
-                df.loc[df['PlantType'] == pt, 'Capacity (MW)'] = 0
+            if currYear <= 2035: df.loc[df['PlantType'] == pt, 'Capacity (MW)'] = 0
+        if h2Pathway == 'blueToZeroWY':
+            if currYear <= 2035: df.loc[df['PlantType'] == pt, 'Capacity (MW)'] = 0
+            if currYear > 2035: df.loc[(df['PlantType'] == pt) & (df['region'] != 'WY'), 'Capacity (MW)'] = 0
         techs = df.loc[(df['PlantType'] == pt)]
         techs.index = techs['GAMS Symbol']
         maxBuilds = np.ceil(maxCapPerTech[pt] / techs['Capacity (MW)']).to_dict()
