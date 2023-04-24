@@ -253,7 +253,8 @@ def addMaxNewBuilds(db, df, thermalSet, stoTechSet, dacsSet, CCSSet, maxCapPerTe
         pt = 'Fuel Cell'
         genCaps = df.loc[df['PlantType'] == pt, 'Capacity (MW)']
         add0dParam(db, 'pNMaxFuelcell', np.ceil(maxCapPerTech[pt] / genCaps.mean()))
-        # Fuel Cell
+
+        # H2 Turbine
         pt = 'H2 Turbine'
         genCaps = df.loc[df['PlantType'] == pt, 'Capacity (MW)']
         add0dParam(db, 'PNMaxH2Turbine', np.ceil(maxCapPerTech[pt] / genCaps.mean()))
