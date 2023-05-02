@@ -6,7 +6,7 @@ Sets
 *EXISTING GENERATORS
          nonrenewegu(egu)                   existing nonrenewable generators
                 ststorageegu(storageegu)    existing battery storage
-                ltstorageegu(storageegu)    existing h2 storage (in MWh)
+                ltstorageegu(storageegu)    existing h2 storage
 *CANDIDATE TECHNOLOGIES FOR CONSTRUCTION
          tech                               candidate technologies for new construction
 *Generators
@@ -28,8 +28,8 @@ Sets
             h2turbinetech(h2etech)          H2 turbines
 *Storage
          storagetech(tech)                  storage plant types for new construction
-            ststoragetech(storagetech)      new battery storage (in MWh)
-            ltstoragetech(storagetech)      new h2 storage (in ton)
+            ststoragetech(storagetech)      new battery storage [MWh]
+            ltstoragetech(storagetech)      new h2 storage [ton]
          nonstoragetech(tech)               non storage techs
                 
 *CO2 removal
@@ -70,13 +70,13 @@ Parameters
          pOpcosttech(tech)                      total operational cost [thousandUSD per GWh] = VOM + FuelCost*HR + EmsCost*EmsRate*HR
          pFom(tech)                             fixed O&M cost [thousand$ per GW per yr]
          pOcc(tech)                             overnight capital cost [thousandUSD per GW] or [thousandUSD per ton]
-                 pPowOcc(storagetech)         occ for power capcity for lt storage
-                 pEneOcc(storagetech)         occ for energy capacity for lt storage
+                 pPowOcc(storagetech)           occ for power capcity for lt storage
+                 pEneOcc(storagetech)           occ for energy capacity for lt storage
 *                pCnse                          cost of nonserved energy [thousandUSD per GW]
 *RAMP RATES [GW/hr]
          pRampratetech(tech)                    up and down ramp rate of EGU assumed to be the same up & down [GW per hr]
 *STORAGE PARAMETERS
-         pEfficiencytech(storagetech)         round trip battery storage efficiency
+         pEfficiencytech(storagetech)           round trip battery storage efficiency
          pChargeDischargeCapRatio               "ratio of charging to discharging" /1/
 *EMISSIONS RATES [short ton/MMBtu]
          pCO2emratetech(tech)                   CO2 emissions rate of potential new generators [short ton per MMBtu]
@@ -150,7 +150,7 @@ Variable
          vVarcosttech(tech,h)
          vVarcostannual                  total variable costs for new and existing plants = variable O&M + fuel + emission costs [thousandUSD per yr]
          vFixedcostannual                total investment costs for new plants = fixed O&M + overnight capital costs [thousandUSD per yr]
-         vGentech(tech,h)                hourly electricity generation by new plants [GWh] or [ton]
+         vGentech(tech,h)                hourly electricity or H2 generation by new plants [GWh] or [ton]
 *Emission variables
          vCO2emstech(tech,h)
          vCO2emsannual                   co2 emissions in entire year from new and existing plants [short ton]
@@ -165,13 +165,13 @@ Positive variables
          vFlextech(tech,h)
          vConttech(tech,h)
 *Storage
-         vStateofchargetech(storagetech,h)              "energy stored in storage unit at end of hour h (GWh)"
-         vChargetech(storagetech,h)                     "charged energy by storage unit in hour h (GWh)"
-         vPowBuiltSto(storagetech)                     built power capacity for storage
-         vEneBuiltSto(storagetech)                     built energy capacity for storage
+         vStateofchargetech(storagetech,h)              "energy stored in storage unit at end of hour h [GWh]"
+         vChargetech(storagetech,h)                     "charged energy by storage unit in hour h [GWh]"
+         vPowBuiltSto(storagetech)                       built power capacity for storage
+         vEneBuiltSto(storagetech)                       built energy capacity for storage
 *Inputs for electrolyzers, fuel cells and H2 turbines:
-         vELChargetech(electrolyzertech,h)               electricity input to power electrolyzer
-         vH2TChargetech(h2etech,h)                       hydrogen input to power H2T tech (hydrogen turbines + fuel cells)
+         vELChargetech(electrolyzertech,h)               electricity input to power electrolyzer [GWh]
+         vH2TChargetech(h2etech,h)                       hydrogen input to power H2T tech (hydrogen turbines + fuel cells) [ton]
 *Line builds and flows
          vNl(l)
          vLinecapacnew(l)
@@ -243,7 +243,7 @@ investmentcost..         vFixedcostannual =e= sum(nonstoragetech,vN(nonstoragete
                                                  
 ***************************************************
 
-******************SYSTEM-WIDE GENERATION AND RESERVE CONSTRAINTS******************* vH2TChargetech
+******************SYSTEM-WIDE GENERATION AND RESERVE CONSTRAINTS*******************
 *Demand = generation by new and existing plants
 meetdemand(z,h)..          sum(thermaltech$[pGenzonetech(thermaltech)=ORD(z)],vGentech(thermaltech,h)) + sum(renewtech$[pGenzonetech(renewtech)=ORD(z)],vGentech(renewtech,h))
                                                         + sum(h2etech$[pGenzonetech(h2etech)=ORD(z)],vGentech(h2etech,h)) + sum(egenegu$[pGenzone(egenegu)=ORD(z)],vGen(egenegu,h))
@@ -300,15 +300,15 @@ vGentech.up(dacstech,h) = 0;
 
 
 ******************ELECTROLYZER CONSTRAINT******************
-electrolyzerconversiontech(electrolyzertech,h)..   vELChargetech(electrolyzertech,h) =e= vGentech(electrolyzertech,h)*pElectrolyzerCon;
+electrolyzerconversiontech(electrolyzertech,h)..   vELChargetech(electrolyzertech,h) =e= vGentech(electrolyzertech,h)*pElectrolyzerCon/1000;
 ************************************************************
 
 ******************FUEL CELL CONSTRAINT******************
-fuelcellconversiontech(fuelcelltech,h)..   vH2TChargetech(fuelcelltech,h) =e= vGentech(fuelcelltech,h)*pFuelCellCon;
+fuelcellconversiontech(fuelcelltech,h)..   vH2TChargetech(fuelcelltech,h) =e= vGentech(fuelcelltech,h)/(pFuelCellCon*1000);
 ************************************************************
 
 ******************H2 TURBINE CONSTRAINT******************
-h2turbineconversiontech(h2turbinetech,h)..   vH2TChargetech(h2turbinetech,h) =e= vGentech(h2turbinetech,h)*pH2TurbineCon;
+h2turbineconversiontech(h2turbinetech,h)..   vH2TChargetech(h2turbinetech,h) =e= vGentech(h2turbinetech,h)/(pH2TurbineCon*1000);
 ************************************************************
 
 ******************BUILD DECISIONS******************

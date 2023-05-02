@@ -224,7 +224,7 @@ def addMaxNewBuilds(db, df, thermalSet, stoTechSet, dacsSet, CCSSet, maxCapPerTe
     if coOptH2:
         # SMR
         pt = 'SMR'
-        if h2Pathway == 'blueToZero':
+        if h2Pathway != 'reference':
             df.loc[(df['PlantCategory'] == pt) & (df['region'] != 'WY'), 'Capacity (MW)'] = 0
         techs = df.loc[(df['PlantCategory'] == pt)]
         techs.index = techs['GAMS Symbol']
@@ -236,10 +236,9 @@ def addMaxNewBuilds(db, df, thermalSet, stoTechSet, dacsSet, CCSSet, maxCapPerTe
 
         # Electrolyzer
         pt = 'Electrolyzer'
-        if h2Pathway == 'blueToZero':
+        if h2Pathway != 'reference':
             if currYear <= 2035: df.loc[df['PlantType'] == pt, 'Capacity (MW)'] = 0
         if h2Pathway == 'blueToZeroWY':
-            if currYear <= 2035: df.loc[df['PlantType'] == pt, 'Capacity (MW)'] = 0
             if currYear > 2035: df.loc[(df['PlantType'] == pt) & (df['region'] != 'WY'), 'Capacity (MW)'] = 0
         techs = df.loc[(df['PlantType'] == pt)]
         techs.index = techs['GAMS Symbol']

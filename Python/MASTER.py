@@ -151,8 +151,8 @@ def setKeyParameters():
 
     # ### HYDROGEN - ELECTRICITY CONVERSION:
     electrolyzerCon = 51.4                              # 51.4 MWh >> 1 ton H2
-    fuelcellCon = 0.051                                 # 0.051 ton H2 >> 1 MWh (based on 60% efficiency Fuel Cell)
-    h2TurbineCon = 0.047                                # 0.047 ton H2 >> 1 MWh (based on 65% efficiency H2 turbine)
+    fuelcellCon = 0.051                                 # 0.051 ton H2 >> 1 MWh (based on 60% efficiency Fuel Cell) <-> 19.6 MWh >> 1 ton H2
+    h2TurbineCon = 0.047                                # 0.047 ton H2 >> 1 MWh (based on 65% efficiency H2 turbine) <-> 21.28 MWh >> 1 ton H2
 
     # ### STORAGE OPTIONS
     stoMkts = 'energy'                                  # energy,res,energyAndRes - whether storage participates in energy, reserve, or energy and reserve markets
