@@ -29,7 +29,7 @@ def addGenParams(db,df,genSet,mwToGW,lbToShortTon,zoneOrder,newTechs=False):
     add1dParam(db,getGenParamDict(df,'RampRate(MW/hr)', 1/mwToGW), genSet, df['GAMS Symbol'],'pRamprate' + techLbl)
     # Op cost (thousand$/GWh)
     add1dParam(db,getGenParamDict(df,'OpCost($/MWh)'), genSet,df['GAMS Symbol'],'pOpcost' + techLbl)
-    # Capacity (GW)
+    # Capacity (GW) or 1000 ton
     add1dParam(db,getGenParamDict(df,'Capacity (MW)', 1/mwToGW), genSet,df['GAMS Symbol'],'pCapac' + techLbl)
     # Generator zone
     add1dParam(db,getZonalParamDict(df, zoneOrder), genSet, df['GAMS Symbol'],'pGenzone' + techLbl)
@@ -119,9 +119,9 @@ def addTechCostParams(db, df, coOptH2, genSet, stoSet, mwToGW):
         add1dParam(db,getGenParamDict(sto,'CAPEX(2012$/MW)', mwToGW/1000), stoSet,sto['GAMS Symbol'], 'pPowOcc')
         add1dParam(db,getGenParamDict(sto,'ECAPEX(2012$/MWH)', mwToGW/1000), stoSet,sto['GAMS Symbol'], 'pEneOcc')
     else:
-        # Fixed O&M (thousand$/GW/yr):
+        # Fixed O&M (thousand$/GW/yr) or (thousand $/thousand ton/yr):
         add1dParam(db, getGenParamDict(df, 'FOM(2012$/MW/yr)', mwToGW / 1000), genSet, df['GAMS Symbol'], 'pFom')
-        # Overnight capital cost (thousand$/GW)
+        # Overnight capital cost (thousand$/GW) or (thousand $/thousand ton)
         add1dParam(db, getGenParamDict(df, 'CAPEX(2012$/MW)', mwToGW / 1000), genSet, df['GAMS Symbol'], 'pOcc')
         # Lifetime (years)
         add1dParam(db, getGenParamDict(df, 'Lifetime(years)'), genSet, df['GAMS Symbol'], 'pLife')
@@ -276,9 +276,9 @@ def addNewLineParams(db, lineDists, lineCosts, lineSet, maxCapPerTech, buildLimi
     add0dParam(db,'pLifeline', lineLife)
 
     # H2 pipeline cost = $3.72M/mile (The Future of Hydrogen, IEA report)
-    h2Cost = 3.72*1e6*dist
+    maxH2LineCapac = 38.8/1.10231 # per unit if pipeline unit (ton)
+    h2Cost = 3.72*1e6*(1/maxH2LineCapac)*dist
     h2LineLife = 40  # Years
-    maxH2LineCapac = 38.8 # per unit if pipeline unit (metric ton)
     add1dParam(db, h2Cost.to_dict(), lineSet, h2Cost.index, 'pH2Linecost')
     add0dParam(db, 'pH2Lifeline', h2LineLife)
     # Maximum H2 pipeline capacity (metric ton)

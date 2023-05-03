@@ -202,13 +202,13 @@ calcco2ems(egu,h)..   vCO2ems(egu,h) =e= vGen(egu,h)*pHr(egu)*pCO2emrate(egu);
 ************************************************************
 
 ******************ELECTROLYZER CONSTRAINT******************
-electrolyzerconversion(electrolyzeregu,h)..   vELCharge(electrolyzeregu,h) =e= vGen(electrolyzeregu,h)*pElectrolyzerCon;
+electrolyzerconversion(electrolyzeregu,h)..   vELCharge(electrolyzeregu,h) =e= vGen(electrolyzeregu,h)*pElectrolyzerCon/1000;
 ************************************************************
 
 ******************FUEL CELL CONSTRAINT******************
-fuelcellconversion(fuelcellegu,h)..   vH2TCharge(fuelcellegu,h) =e= vGen(fuelcellegu,h)*pFuelCellCon;
+fuelcellconversion(fuelcellegu,h)..   vH2TCharge(fuelcellegu,h) =e= vGen(fuelcellegu,h)/(pFuelCellCon*1000);
 ************************************************************
 
 ******************H2 TURBINE CONSTRAINT******************
-h2turbineconversion(h2turbineegu,h)..   vH2TCharge(h2turbineegu,h) =e= vGen(h2turbineegu,h)*pH2TurbineCon;
+h2turbineconversion(h2turbineegu,h)..   vH2TCharge(h2turbineegu,h) =e= vGen(h2turbineegu,h)/(pH2TurbineCon*1000);
 ************************************************************

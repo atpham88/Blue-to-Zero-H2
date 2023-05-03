@@ -69,7 +69,7 @@ Parameters
 *COST PARAMETERS
          pOpcosttech(tech)                      total operational cost [thousandUSD per GWh] = VOM + FuelCost*HR + EmsCost*EmsRate*HR
          pFom(tech)                             fixed O&M cost [thousand$ per GW per yr]
-         pOcc(tech)                             overnight capital cost [thousandUSD per GW] or [thousandUSD per ton]
+         pOcc(tech)                             overnight capital cost [thousandUSD per GW] or [thousandUSD per thousand ton]
                  pPowOcc(storagetech)           occ for power capcity for lt storage
                  pEneOcc(storagetech)           occ for energy capacity for lt storage
 *                pCnse                          cost of nonserved energy [thousandUSD per GW]
