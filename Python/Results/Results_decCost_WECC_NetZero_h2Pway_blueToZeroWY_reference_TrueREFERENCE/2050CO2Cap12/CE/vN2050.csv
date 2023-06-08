@@ -1,0 +1,781 @@
+,0
+Coal Steam CCSWA,0.0
+Combined CycleWA,0.0
+Combined Cycle CCSWA,0.0
+NuclearWA,0.0
+Battery StorageWA,0.0
+HydrogenWA,0.0
+SRWA,0.0
+SMRWA,0.0
+SMR CCSWA,0.0
+ElectrolyzerWA,0.0
+Fuel CellWA,0.0
+H2 TurbineWA,0.0
+Coal Steam CCSOR,0.0
+Combined CycleOR,0.0
+Combined Cycle CCSOR,0.0
+NuclearOR,0.0
+Battery StorageOR,0.0
+HydrogenOR,0.0
+SROR,0.0
+SMROR,0.0
+SMR CCSOR,0.0
+ElectrolyzerOR,0.0
+Fuel CellOR,0.0
+H2 TurbineOR,0.0
+Coal Steam CCSCA,0.0
+Combined CycleCA,0.0
+Combined Cycle CCSCA,0.0
+NuclearCA,0.0
+Battery StorageCA,0.0
+HydrogenCA,0.0
+SRCA,0.0
+SMRCA,0.0
+SMR CCSCA,0.0
+ElectrolyzerCA,0.0
+Fuel CellCA,0.0
+H2 TurbineCA,0.0
+Coal Steam CCSNV,0.0
+Combined CycleNV,0.0
+Combined Cycle CCSNV,0.0
+NuclearNV,0.0
+Battery StorageNV,0.0
+HydrogenNV,0.0
+SRNV,0.0
+SMRNV,0.0
+SMR CCSNV,0.0
+ElectrolyzerNV,0.0
+Fuel CellNV,0.0
+H2 TurbineNV,0.0
+Coal Steam CCSID,0.0
+Combined CycleID,0.0
+Combined Cycle CCSID,0.0
+NuclearID,0.0
+Battery StorageID,0.0
+HydrogenID,0.0
+SRID,0.0
+SMRID,0.0
+SMR CCSID,0.0
+ElectrolyzerID,0.0
+Fuel CellID,0.0
+H2 TurbineID,0.0
+Coal Steam CCSMT,0.0
+Combined CycleMT,0.0
+Combined Cycle CCSMT,0.0
+NuclearMT,0.0
+Battery StorageMT,0.0
+HydrogenMT,0.0
+SRMT,0.0
+SMRMT,0.0
+SMR CCSMT,0.0
+ElectrolyzerMT,0.0
+Fuel CellMT,0.0
+H2 TurbineMT,0.0
+Coal Steam CCSWY,0.0
+Combined CycleWY,0.0
+Combined Cycle CCSWY,0.0
+NuclearWY,0.0
+Battery StorageWY,0.0
+HydrogenWY,0.0
+SRWY,0.0
+SMRWY,4.021583608756761
+SMR CCSWY,0.0
+ElectrolyzerWY,39.507918371843175
+Fuel CellWY,0.0
+H2 TurbineWY,305.1178161386143
+Coal Steam CCSUT,0.0
+Combined CycleUT,0.0
+Combined Cycle CCSUT,0.0
+NuclearUT,0.0
+Battery StorageUT,0.0
+HydrogenUT,0.0
+SRUT,0.0
+SMRUT,0.0
+SMR CCSUT,0.0
+ElectrolyzerUT,0.0
+Fuel CellUT,0.0
+H2 TurbineUT,0.0
+Coal Steam CCSAZ,0.0
+Combined CycleAZ,0.0
+Combined Cycle CCSAZ,0.0
+NuclearAZ,0.0
+Battery StorageAZ,0.0
+HydrogenAZ,0.0
+SRAZ,0.0
+SMRAZ,0.0
+SMR CCSAZ,0.0
+ElectrolyzerAZ,0.0
+Fuel CellAZ,0.0
+H2 TurbineAZ,0.0
+Coal Steam CCSNM,0.0
+Combined CycleNM,0.0
+Combined Cycle CCSNM,0.0
+NuclearNM,0.0
+Battery StorageNM,0.0
+HydrogenNM,0.0
+SRNM,0.0
+SMRNM,0.0
+SMR CCSNM,0.0
+ElectrolyzerNM,0.0
+Fuel CellNM,0.0
+H2 TurbineNM,0.0
+Coal Steam CCSCO,0.0
+Combined CycleCO,0.0
+Combined Cycle CCSCO,0.0
+NuclearCO,0.0
+Battery StorageCO,0.0
+HydrogenCO,0.0
+SRCO,0.0
+SMRCO,0.0
+SMR CCSCO,0.0
+ElectrolyzerCO,0.0
+Fuel CellCO,0.0
+H2 TurbineCO,0.0
+windlat31.83lon-112.32AZ,0.0
+windlat32.33lon-113.32AZ,0.0
+windlat32.33lon-111.32AZ,0.0
+solarlat31.83lon-112.32AZ,0.0
+solarlat32.33lon-113.32AZ,81.886333839428
+solarlat32.33lon-111.32AZ,0.0
+windlat31.83lon-110.32AZ,0.0
+windlat32.33lon-109.82AZ,0.0
+windlat32.83lon-113.32AZ,0.0
+windlat32.83lon-111.32AZ,0.0
+windlat32.83lon-109.32AZ,0.0
+windlat33.33lon-112.82AZ,0.0
+windlat33.33lon-110.82AZ,0.0
+windlat33.83lon-113.32AZ,0.0
+windlat33.83lon-111.32AZ,0.0
+windlat34.33lon-112.82AZ,0.0
+windlat34.33lon-110.82AZ,0.0
+windlat34.67lon-110.32AZ,0.0
+windlat34.83lon-113.32AZ,0.0
+windlat34.83lon-111.32AZ,0.0
+windlat35.33lon-111.82AZ,0.0
+windlat35.83lon-111.82AZ,0.0
+windlat36.33lon-111.82AZ,0.0
+windlat36.83lon-112.32AZ,0.0
+windlat36.83lon-110.32AZ,0.0
+solarlat31.83lon-110.32AZ,0.0
+solarlat32.33lon-109.32AZ,0.0
+solarlat32.83lon-112.82AZ,0.0
+solarlat32.83lon-110.82AZ,0.0
+solarlat33.33lon-114.32AZ,0.0
+solarlat33.33lon-112.32AZ,0.0
+solarlat33.33lon-110.32AZ,0.0
+solarlat33.83lon-112.82AZ,0.0
+solarlat33.83lon-110.82AZ,0.0
+solarlat34.33lon-112.32AZ,0.0
+solarlat34.33lon-110.32AZ,0.0
+solarlat34.83lon-113.32AZ,0.0
+solarlat34.83lon-111.32AZ,0.0
+solarlat35.33lon-113.32AZ,0.0
+solarlat35.33lon-111.32AZ,0.0
+solarlat35.83lon-112.32AZ,0.0
+solarlat35.83lon-110.32AZ,0.0
+solarlat36.33lon-111.82AZ,0.0
+solarlat36.83lon-110.82AZ,0.0
+windlat31.83lon-108.05NM,0.0
+windlat32.33lon-107.55NM,0.0
+windlat32.33lon-105.55NM,0.0
+windlat32.83lon-107.05NM,0.0
+windlat33.33lon-108.55NM,0.0
+windlat33.33lon-106.55NM,0.0
+windlat33.83lon-107.05NM,0.0
+windlat33.83lon-105.05NM,0.0
+windlat34.33lon-108.55NM,0.0
+windlat34.33lon-106.55NM,0.0
+windlat34.33lon-104.55NM,0.0
+windlat34.83lon-107.05NM,0.0
+windlat34.83lon-105.55NM,0.0
+windlat35.33lon-107.55NM,0.0
+windlat35.33lon-105.55NM,0.0
+windlat35.83lon-107.55NM,0.0
+windlat35.83lon-105.55NM,0.0
+windlat35.83lon-103.55NM,0.0
+windlat36.33lon-107.55NM,0.0
+windlat36.33lon-105.55NM,0.0
+windlat36.33lon-103.55NM,0.0
+windlat36.62lon-103.65NM,0.0
+windlat36.83lon-108.05NM,0.0
+windlat36.83lon-106.05NM,0.0
+windlat36.83lon-104.05NM,0.0
+solarlat31.83lon-108.05NM,0.0
+solarlat32.33lon-107.05NM,0.0
+solarlat32.33lon-105.05NM,0.0
+solarlat32.83lon-108.55NM,0.0
+solarlat32.83lon-106.55NM,0.0
+solarlat33.33lon-108.05NM,0.0
+solarlat33.33lon-106.05NM,0.0
+solarlat33.83lon-108.55NM,0.0
+solarlat33.83lon-106.55NM,0.0
+solarlat34.33lon-108.05NM,0.0
+solarlat34.33lon-106.05NM,0.0
+solarlat34.33lon-104.05NM,0.0
+solarlat34.83lon-107.05NM,0.0
+solarlat34.83lon-105.05NM,0.0
+solarlat35.33lon-107.05NM,0.0
+solarlat35.33lon-105.05NM,0.0
+solarlat35.83lon-108.05NM,0.0
+solarlat35.83lon-106.05NM,0.0
+solarlat35.83lon-104.05NM,0.0
+solarlat36.33lon-107.55NM,0.0
+solarlat36.33lon-105.55NM,0.0
+solarlat36.33lon-103.55NM,0.0
+solarlat36.83lon-108.55NM,0.0
+solarlat36.83lon-106.55NM,0.0
+solarlat36.83lon-104.55NM,0.0
+windlat32.72lon-116.42CA,0.0
+windlat33.04lon-116.92CA,0.0
+solarlat33.04lon-116.42CA,0.0
+windlat33.04lon-114.92CA,0.0
+windlat33.54lon-117.42CA,0.0
+windlat33.54lon-115.42CA,0.0
+windlat33.86lon-116.42CA,0.0
+windlat34.04lon-116.92CA,0.0
+windlat34.04lon-114.92CA,0.0
+windlat34.54lon-117.92CA,0.0
+windlat34.54lon-116.42CA,0.0
+windlat34.54lon-114.42CA,0.0
+windlat35.0lon-118.42CA,0.0
+windlat35.04lon-118.42CA,0.0
+windlat35.04lon-116.92CA,0.0
+windlat35.04lon-114.92CA,0.0
+windlat35.34lon-118.26CA,0.0
+windlat35.54lon-118.42CA,0.0
+windlat35.54lon-116.42CA,0.0
+windlat36.04lon-119.42CA,0.0
+windlat36.04lon-117.42CA,0.0
+windlat36.54lon-118.42CA,0.0
+windlat37.04lon-117.92CA,0.0
+solarlat33.54lon-116.92CA,0.0
+solarlat33.54lon-114.92CA,0.0
+solarlat34.04lon-116.92CA,0.0
+solarlat34.04lon-114.92CA,0.0
+solarlat34.54lon-118.92CA,0.0
+solarlat34.54lon-116.92CA,0.0
+solarlat34.54lon-114.92CA,0.0
+solarlat35.04lon-119.42CA,0.0
+solarlat35.04lon-117.42CA,0.0
+solarlat35.04lon-115.42CA,0.0
+solarlat35.54lon-118.92CA,0.0
+solarlat35.54lon-116.92CA,0.0
+solarlat36.04lon-117.92CA,0.0
+solarlat36.54lon-119.42CA,0.0
+solarlat36.54lon-117.42CA,0.0
+solarlat37.04lon-118.42CA,0.0
+solarlat38.54lon-119.42CA,0.0
+windlat33.83lon-109.32AZ,0.0
+windlat34.83lon-109.32AZ,0.0
+windlat35.33lon-109.82AZ,0.0
+windlat35.83lon-109.82AZ,0.0
+windlat36.33lon-109.82AZ,0.0
+solarlat34.83lon-109.32AZ,0.0
+solarlat35.33lon-109.32AZ,0.0
+solarlat36.33lon-109.82AZ,0.0
+windlat34.04lon-120.42CA,0.0
+windlat34.54lon-119.92CA,0.0
+windlat35.04lon-120.42CA,0.0
+windlat35.54lon-120.42CA,0.0
+windlat36.04lon-121.42CA,0.0
+windlat36.54lon-120.42CA,0.0
+windlat37.04lon-121.92CA,0.0
+windlat37.04lon-119.92CA,0.0
+windlat37.54lon-121.42CA,0.0
+windlat37.54lon-119.42CA,0.0
+windlat37.7lon-121.61CA,0.0
+windlat38.04lon-121.42CA,0.0
+windlat38.04lon-119.42CA,0.0
+windlat38.2lon-121.92CA,0.0
+windlat38.54lon-122.42CA,0.0
+windlat38.54lon-120.42CA,0.0
+windlat39.04lon-121.92CA,0.0
+windlat39.54lon-123.42CA,0.0
+windlat39.54lon-121.42CA,0.0
+windlat40.04lon-122.92CA,0.0
+windlat40.04lon-121.42CA,0.0
+windlat40.54lon-123.42CA,0.0
+windlat40.54lon-121.42CA,0.0
+windlat40.9lon-121.76CA,0.0
+windlat41.04lon-123.42CA,0.0
+windlat41.04lon-121.42CA,0.0
+solarlat34.04lon-120.42CA,0.0
+solarlat35.54lon-120.92CA,134.09851178101027
+solarlat36.04lon-119.92CA,0.0
+solarlat36.54lon-121.42CA,0.0
+solarlat37.04lon-120.42CA,0.0
+solarlat37.54lon-121.92CA,0.0
+solarlat37.54lon-119.92CA,0.0
+solarlat38.04lon-121.42CA,0.0
+solarlat38.04lon-119.42CA,0.0
+solarlat38.54lon-121.42CA,0.0
+solarlat39.04lon-122.92CA,0.0
+solarlat39.04lon-120.92CA,0.0
+solarlat39.54lon-123.42CA,0.0
+solarlat39.54lon-121.42CA,0.0
+solarlat40.04lon-122.42CA,0.0
+solarlat40.04lon-120.42CA,0.0
+solarlat40.54lon-123.42CA,0.0
+solarlat40.54lon-121.42CA,0.0
+windlat35.12lon-114.05AZ,0.0
+windlat35.33lon-113.82AZ,0.0
+windlat35.83lon-113.82AZ,0.0
+windlat36.33lon-113.82AZ,0.0
+solarlat35.83lon-114.32AZ,0.0
+solarlat36.33lon-113.82AZ,0.0
+solarlat36.83lon-112.82AZ,0.0
+windlat36.5lon-116.51NV,0.0
+windlat37.0lon-116.51NV,0.0
+windlat37.0lon-114.51NV,0.0
+windlat37.5lon-117.51NV,0.0
+windlat37.5lon-115.51NV,0.0
+windlat38.0lon-117.01NV,0.0
+windlat38.0lon-115.01NV,0.0
+windlat38.5lon-118.51NV,0.0
+windlat38.5lon-116.51NV,0.0
+windlat38.5lon-114.51NV,0.0
+windlat39.0lon-118.01NV,0.0
+windlat39.0lon-116.01NV,0.0
+windlat39.04lon-114.51NV,0.0
+windlat39.5lon-119.51NV,0.0
+windlat39.5lon-117.51NV,0.0
+windlat39.5lon-115.51NV,0.0
+windlat40.0lon-118.51NV,0.0
+windlat40.0lon-116.51NV,0.0
+windlat40.0lon-114.51NV,0.0
+windlat40.5lon-118.51NV,0.0
+windlat40.5lon-116.51NV,0.0
+windlat40.5lon-114.51NV,0.0
+windlat41.0lon-118.01NV,0.0
+windlat41.0lon-116.01NV,0.0
+windlat41.5lon-118.01NV,0.0
+windlat41.5lon-116.01NV,0.0
+solarlat37.0lon-117.01NV,40.93583474959728
+solarlat37.0lon-115.01NV,0.0
+solarlat37.5lon-116.01NV,0.0
+solarlat38.0lon-117.51NV,0.0
+solarlat38.0lon-115.51NV,0.0
+solarlat38.5lon-117.51NV,0.0
+solarlat38.5lon-115.51NV,0.0
+solarlat39.0lon-119.01NV,0.0
+solarlat39.0lon-117.01NV,0.0
+solarlat39.0lon-115.01NV,0.0
+solarlat39.5lon-119.51NV,0.0
+solarlat39.5lon-117.51NV,0.0
+solarlat39.5lon-115.51NV,0.0
+solarlat40.0lon-118.01NV,0.0
+solarlat40.0lon-116.01NV,0.0
+solarlat40.5lon-119.01NV,0.0
+solarlat40.5lon-117.01NV,0.0
+solarlat40.5lon-115.01NV,0.0
+solarlat41.0lon-118.01NV,0.0
+solarlat41.0lon-116.01NV,0.0
+solarlat41.5lon-119.51NV,0.0
+solarlat41.5lon-117.51NV,0.0
+solarlat41.5lon-115.51NV,0.0
+windlat36.5lon-114.51NV,0.0
+solarlat36.0lon-115.01NV,0.0
+solarlat36.5lon-115.51NV,0.0
+windlat37.49lon-107.56CO,0.0
+windlat37.49lon-105.56CO,0.0
+windlat37.49lon-103.56CO,0.0
+windlat37.7lon-102.65CO,0.0
+windlat37.99lon-108.06CO,0.0
+windlat37.99lon-106.06CO,0.0
+windlat37.99lon-104.06CO,0.0
+windlat37.99lon-102.06CO,0.0
+windlat38.49lon-109.06CO,0.0
+windlat38.49lon-107.06CO,0.0
+windlat38.49lon-105.06CO,0.0
+windlat38.49lon-103.06CO,0.0
+windlat38.99lon-108.06CO,0.0
+windlat38.99lon-104.06CO,0.0
+windlat38.99lon-102.06CO,0.01771714742502279
+windlat39.4lon-102.5CO,0.0
+windlat39.49lon-103.56CO,0.0
+solarlat37.49lon-108.06CO,0.0
+solarlat37.49lon-106.06CO,0.0
+solarlat37.49lon-104.06CO,0.0
+solarlat37.49lon-102.06CO,0.0
+solarlat37.99lon-108.56CO,0.0
+solarlat37.99lon-106.56CO,0.0
+solarlat37.99lon-104.56CO,0.0
+solarlat37.99lon-102.56CO,0.0
+solarlat38.49lon-108.06CO,0.0
+solarlat38.49lon-106.06CO,0.0
+solarlat38.49lon-104.06CO,0.0
+solarlat38.49lon-102.06CO,0.0
+solarlat38.99lon-107.06CO,0.0
+solarlat38.99lon-103.06CO,0.0
+solarlat39.49lon-103.56CO,0.0
+windlat37.5lon-113.55UT,0.0
+windlat37.5lon-111.55UT,0.0
+windlat37.5lon-109.55UT,0.0
+windlat38.0lon-113.05UT,0.0
+windlat38.0lon-111.05UT,0.0
+windlat38.0lon-109.05UT,0.0
+windlat38.5lon-112.55UT,0.0
+windlat38.5lon-110.55UT,0.0
+windlat38.54lon-112.82UT,0.0
+windlat39.0lon-113.55UT,0.0
+windlat39.0lon-111.55UT,0.0
+windlat39.0lon-109.55UT,0.0
+windlat39.5lon-113.05UT,0.0
+windlat39.5lon-111.05UT,0.0
+windlat40.0lon-112.05UT,0.0
+windlat40.5lon-112.32UT,0.0
+windlat41.0lon-113.55UT,0.0
+windlat41.5lon-113.55UT,0.0
+windlat41.5lon-111.55UT,0.0
+solarlat37.0lon-109.05UT,0.0
+solarlat37.5lon-114.05UT,0.0
+solarlat37.5lon-112.05UT,0.0
+solarlat37.5lon-110.05UT,0.0
+solarlat38.0lon-113.55UT,0.0
+solarlat38.0lon-111.55UT,0.0
+solarlat38.0lon-109.55UT,0.0
+solarlat38.5lon-113.55UT,0.0
+solarlat38.5lon-111.55UT,0.0
+solarlat38.5lon-109.55UT,0.0
+solarlat39.0lon-112.55UT,0.0
+solarlat39.0lon-110.55UT,0.0
+solarlat39.5lon-113.05UT,0.0
+solarlat39.5lon-111.05UT,0.0
+solarlat40.0lon-113.55UT,0.0
+solarlat40.0lon-111.55UT,0.0
+solarlat40.5lon-112.55UT,0.0
+solarlat41.0lon-113.55UT,0.0
+solarlat41.5lon-113.05UT,0.0
+solarlat42.0lon-112.55UT,0.0
+windlat38.99lon-106.06CO,0.0
+windlat39.49lon-107.56CO,0.0
+windlat39.49lon-105.56CO,0.0
+windlat39.99lon-108.56CO,0.0
+windlat39.99lon-106.56CO,0.0
+windlat39.99lon-104.56CO,0.0
+windlat39.99lon-102.56CO,0.0
+windlat40.49lon-108.56CO,0.0
+windlat40.49lon-106.56CO,0.0
+windlat40.49lon-104.56CO,0.0
+windlat40.49lon-102.56CO,0.0
+windlat40.97lon-103.06CO,0.0
+windlat40.99lon-107.06CO,0.0
+windlat40.99lon-105.06CO,0.0
+windlat40.99lon-103.55CO,0.0
+windlat40.99lon-102.06CO,16.78316385238582
+solarlat38.99lon-105.06CO,0.0
+solarlat39.49lon-107.56CO,0.0
+solarlat39.49lon-105.56CO,0.0
+solarlat39.99lon-108.06CO,0.0
+solarlat39.99lon-106.06CO,0.0
+solarlat39.99lon-104.06CO,0.0
+solarlat39.99lon-102.06CO,0.0
+solarlat40.49lon-107.06CO,0.0
+solarlat40.49lon-105.06CO,0.0
+solarlat40.49lon-103.06CO,0.0
+solarlat40.99lon-108.06CO,0.0
+solarlat40.99lon-106.06CO,0.0
+solarlat40.99lon-104.06CO,0.0
+solarlat40.99lon-102.06CO,0.0
+windlat40.0lon-110.05UT,0.0
+windlat40.5lon-110.55UT,0.0
+windlat41.0lon-111.55UT,0.0
+solarlat40.0lon-109.55UT,0.0
+solarlat40.5lon-110.55UT,0.0
+solarlat41.0lon-111.55UT,0.0
+solarlat41.5lon-111.05UT,0.0
+windlat41.22lon-105.05WY,0.0
+windlat41.49lon-106.06WY,0.0
+windlat41.49lon-104.06WY,0.0
+windlat41.72lon-106.05WY,0.0
+windlat41.99lon-106.56WY,0.0
+windlat41.99lon-104.56WY,0.0
+windlat42.0lon-106.15WY,0.0
+windlat42.49lon-106.06WY,0.0
+windlat42.49lon-104.06WY,46.434643759105036
+windlat42.99lon-106.56WY,0.0
+windlat42.99lon-104.56WY,0.0
+windlat43.0lon-106.05WY,0.0
+windlat43.49lon-106.56WY,0.0
+windlat43.49lon-104.56WY,0.0
+solarlat41.49lon-107.56WY,0.0
+solarlat41.49lon-105.56WY,0.0
+solarlat41.99lon-105.56WY,0.0
+solarlat42.49lon-107.06WY,0.0
+solarlat42.49lon-105.06WY,0.0
+solarlat42.99lon-105.56WY,0.0
+solarlat43.49lon-106.06WY,0.0
+solarlat43.49lon-104.06WY,0.0
+windlat41.49lon-110.06WY,0.0
+windlat41.49lon-108.06WY,0.0
+windlat41.99lon-110.56WY,0.0
+windlat41.99lon-108.56WY,0.0
+windlat42.49lon-110.06WY,0.0
+windlat42.49lon-108.06WY,0.0
+windlat42.99lon-110.56WY,0.0
+windlat42.99lon-108.56WY,0.0
+windlat43.49lon-110.56WY,0.0
+windlat43.49lon-108.56WY,0.0
+windlat43.99lon-109.56WY,0.0
+windlat43.99lon-107.56WY,0.0
+windlat44.49lon-110.56WY,0.0
+windlat44.49lon-108.56WY,0.0
+windlat44.99lon-110.06WY,0.0
+windlat44.99lon-108.06WY,0.0
+solarlat41.49lon-109.56WY,0.0
+solarlat41.99lon-109.56WY,0.0
+solarlat41.99lon-107.56WY,0.0
+solarlat42.49lon-109.06WY,0.0
+solarlat42.99lon-109.56WY,0.0
+solarlat42.99lon-107.56WY,0.0
+solarlat43.49lon-110.06WY,0.0
+solarlat43.49lon-108.06WY,0.0
+solarlat43.99lon-110.56WY,0.0
+solarlat43.99lon-108.56WY,0.0
+solarlat44.49lon-110.06WY,0.0
+solarlat44.49lon-108.06WY,0.0
+solarlat44.99lon-109.56WY,0.0
+windlat41.54lon-122.92CA,0.0
+windlat41.54lon-120.92CA,0.0
+solarlat41.04lon-122.92CA,0.0
+solarlat41.04lon-120.92CA,0.0
+solarlat41.54lon-122.42CA,0.0
+solarlat41.54lon-120.42CA,0.0
+windlat42.49lon-123.61OR,0.0
+windlat42.49lon-121.61OR,0.0
+windlat42.99lon-122.61OR,0.0
+solarlat42.49lon-123.11OR,0.0
+solarlat42.49lon-121.11OR,0.0
+solarlat42.99lon-123.61OR,0.0
+solarlat42.99lon-121.61OR,0.0
+solarlat43.49lon-124.11OR,0.0
+solarlat43.49lon-122.11OR,15.605733171196686
+windlat42.49lon-119.61OR,0.0
+windlat42.49lon-117.61OR,0.0
+windlat42.99lon-120.61OR,0.0
+windlat42.99lon-118.61OR,0.0
+windlat43.49lon-120.61OR,0.0
+windlat43.49lon-118.61OR,0.0
+windlat43.99lon-117.61OR,0.0
+windlat44.23lon-117.26OR,0.0
+solarlat42.49lon-119.11OR,0.0
+solarlat42.49lon-117.11OR,0.0
+solarlat42.99lon-119.61OR,0.0
+solarlat42.99lon-117.61OR,0.0
+solarlat43.49lon-120.11OR,0.0
+solarlat43.49lon-118.11OR,0.0
+solarlat43.99lon-118.61OR,0.0
+solarlat44.99lon-118.11OR,0.0
+windlat42.49lon-115.74ID,0.0
+windlat42.98lon-115.42ID,0.0
+windlat42.99lon-116.74ID,0.0
+windlat42.99lon-114.74ID,0.0
+windlat43.49lon-116.74ID,0.0
+windlat43.49lon-114.74ID,0.0
+windlat43.99lon-115.74ID,0.0
+windlat43.99lon-113.74ID,0.0
+windlat44.49lon-116.74ID,0.0
+windlat44.49lon-114.74ID,0.0
+windlat44.99lon-116.74ID,0.0
+windlat44.99lon-114.74ID,0.0
+windlat45.49lon-116.24ID,0.0
+windlat45.49lon-114.24ID,0.0
+windlat45.99lon-115.74ID,0.0
+windlat46.49lon-114.74ID,0.0
+windlat46.99lon-116.24ID,0.0
+windlat47.49lon-116.24ID,0.0
+solarlat42.49lon-115.24ID,0.0
+solarlat42.99lon-115.74ID,0.0
+solarlat42.99lon-113.74ID,0.0
+solarlat43.49lon-116.24ID,0.0
+solarlat43.49lon-114.24ID,0.0
+solarlat43.99lon-116.74ID,0.0
+solarlat43.99lon-114.74ID,0.0
+solarlat44.49lon-116.24ID,0.0
+solarlat44.49lon-114.24ID,0.0
+solarlat44.99lon-116.24ID,0.0
+solarlat44.99lon-114.24ID,0.0
+solarlat45.49lon-114.74ID,0.0
+solarlat45.99lon-114.74ID,0.0
+solarlat46.49lon-115.24ID,0.0
+solarlat46.99lon-115.24ID,0.0
+solarlat47.49lon-115.74ID,0.0
+solarlat47.99lon-116.24ID,0.0
+windlat42.49lon-113.82ID,0.0
+windlat42.49lon-112.24ID,0.0
+windlat42.74lon-115.01ID,0.0
+windlat42.88lon-115.01ID,0.0
+windlat42.99lon-112.74ID,0.0
+windlat43.48lon-111.82ID,0.0
+windlat43.49lon-112.74ID,0.0
+windlat43.99lon-111.74ID,0.0
+windlat44.49lon-112.74ID,0.0
+solarlat42.49lon-113.24ID,0.0
+solarlat42.49lon-111.24ID,0.0
+solarlat42.99lon-111.74ID,0.0
+solarlat43.49lon-112.24ID,0.0
+solarlat43.99lon-112.74ID,0.0
+solarlat44.49lon-112.24ID,0.0
+windlat43.49lon-122.61OR,0.0
+windlat43.99lon-123.61OR,0.0
+windlat43.99lon-121.61OR,0.0
+windlat43.99lon-119.61OR,0.0
+windlat44.49lon-123.11OR,0.0
+windlat44.49lon-121.11OR,0.0
+windlat44.49lon-119.11OR,0.0
+windlat44.99lon-122.61OR,0.0
+windlat44.99lon-120.61OR,0.0
+windlat44.99lon-118.61OR,0.0
+windlat45.49lon-122.11OR,0.0
+windlat45.49lon-120.11OR,0.0
+windlat45.49lon-118.11OR,0.0
+windlat45.57lon-120.42OR,0.0
+windlat45.7lon-120.26OR,0.0
+windlat45.7lon-119.42OR,0.0
+windlat45.99lon-123.61OR,0.0
+windlat45.99lon-117.61OR,0.0
+solarlat43.99lon-122.61OR,0.0
+solarlat43.99lon-120.61OR,0.0
+solarlat44.49lon-122.61OR,0.0
+solarlat44.49lon-120.61OR,0.0
+solarlat44.49lon-118.61OR,0.0
+solarlat44.99lon-122.11OR,0.0
+solarlat44.99lon-120.11OR,0.0
+solarlat45.49lon-122.61OR,0.0
+solarlat45.49lon-120.61OR,0.0
+solarlat45.49lon-118.61OR,0.0
+solarlat45.49lon-116.61OR,0.0
+solarlat45.99lon-118.61OR,0.0
+windlat43.99lon-105.56WY,0.0
+windlat44.49lon-104.56WY,0.0
+windlat44.99lon-104.06WY,0.0
+solarlat43.99lon-104.56WY,0.0
+solarlat44.49lon-104.06WY,0.0
+solarlat44.99lon-105.56WY,0.0
+windlat44.49lon-106.56WY,0.0
+windlat44.99lon-106.06WY,0.0
+solarlat43.99lon-106.56WY,0.0
+solarlat44.49lon-106.06WY,0.0
+solarlat44.99lon-107.56WY,0.0
+windlat44.86lon-112.05MT,0.0
+windlat45.36lon-113.05MT,0.0
+windlat45.86lon-113.55MT,0.0
+windlat46.36lon-114.05MT,0.0
+windlat46.36lon-112.05MT,0.0
+windlat46.86lon-113.05MT,0.0
+windlat47.36lon-115.05MT,0.0
+windlat47.86lon-114.55MT,0.0
+windlat48.36lon-115.55MT,0.0
+windlat48.36lon-113.55MT,0.0
+windlat48.86lon-115.05MT,0.0
+solarlat44.86lon-111.55MT,0.0
+solarlat45.36lon-113.55MT,0.0
+solarlat45.36lon-111.55MT,0.0
+solarlat45.86lon-113.05MT,0.0
+solarlat46.36lon-112.55MT,0.0
+solarlat46.86lon-114.55MT,0.0
+solarlat47.36lon-115.05MT,0.0
+solarlat47.86lon-115.55MT,0.0
+solarlat47.86lon-113.55MT,0.0
+solarlat48.36lon-114.55MT,0.0
+solarlat48.86lon-115.05MT,0.0
+windlat45.36lon-111.05MT,0.0
+windlat45.36lon-109.05MT,0.0
+windlat45.36lon-107.05MT,0.0
+windlat45.86lon-111.55MT,0.0
+windlat45.86lon-109.56MT,0.0
+windlat46.86lon-111.05MT,0.0
+windlat47.36lon-113.05MT,0.0
+windlat47.36lon-111.05MT,0.0
+windlat47.86lon-112.55MT,0.0
+windlat47.86lon-110.55MT,0.0
+windlat47.86lon-108.55MT,0.0
+windlat48.36lon-111.55MT,0.0
+windlat48.36lon-109.55MT,0.0
+windlat48.36lon-107.55MT,0.0
+windlat48.86lon-113.05MT,0.0
+windlat48.86lon-111.05MT,0.0
+windlat48.86lon-109.05MT,0.0
+solarlat45.36lon-109.55MT,0.0
+solarlat45.36lon-107.55MT,0.0
+solarlat45.86lon-111.05MT,0.0
+solarlat45.86lon-109.05MT,0.0
+solarlat45.86lon-107.05MT,0.0
+solarlat46.36lon-110.55MT,0.0
+solarlat46.86lon-112.55MT,0.0
+solarlat47.36lon-113.05MT,0.0
+solarlat47.36lon-111.05MT,0.0
+solarlat47.86lon-111.55MT,0.0
+solarlat47.86lon-109.55MT,0.0
+solarlat47.86lon-107.55MT,0.0
+solarlat48.36lon-112.55MT,0.0
+solarlat48.36lon-110.55MT,0.0
+solarlat48.36lon-108.55MT,0.0
+solarlat48.86lon-113.05MT,0.0
+solarlat48.86lon-111.05MT,0.0
+solarlat48.86lon-109.05MT,0.0
+windlat45.36lon-105.05MT,0.0
+windlat45.86lon-108.05MT,0.0
+windlat46.36lon-110.05MT,0.0
+windlat46.36lon-108.05MT,0.0
+windlat46.86lon-109.05MT,0.0
+windlat47.36lon-109.55MT,0.0
+solarlat45.36lon-105.55MT,0.0
+solarlat46.36lon-108.55MT,0.0
+solarlat46.36lon-106.55MT,0.0
+solarlat46.86lon-110.55MT,0.0
+solarlat46.86lon-108.55MT,0.0
+solarlat47.36lon-109.05MT,0.0
+windlat45.86lon-120.26WA,0.0
+windlat46.04lon-122.76WA,0.0
+windlat46.04lon-120.76WA,0.0
+windlat46.04lon-118.76WA,0.0
+windlat46.07lon-119.11WA,0.0
+windlat46.43lon-118.01WA,0.0
+windlat46.54lon-122.26WA,0.0
+windlat46.54lon-120.26WA,0.0
+windlat46.54lon-118.26WA,0.0
+windlat46.86lon-124.11WA,0.0
+windlat47.04lon-123.26WA,0.0
+windlat47.04lon-121.26WA,0.0
+windlat47.54lon-123.76WA,0.0
+windlat48.04lon-123.76WA,0.0
+solarlat46.04lon-121.26WA,0.0
+solarlat46.04lon-119.26WA,0.0
+solarlat46.04lon-117.26WA,0.0
+solarlat46.54lon-122.76WA,0.0
+solarlat46.54lon-120.76WA,0.0
+windlat46.49lon-116.74ID,0.0
+windlat48.49lon-116.74ID,0.0
+solarlat45.99lon-116.74ID,0.0
+windlat46.86lon-107.05MT,0.0
+windlat47.36lon-107.55MT,0.0
+windlat47.86lon-106.55MT,0.0
+windlat48.86lon-107.05MT,0.0
+solarlat46.86lon-106.55MT,0.0
+solarlat47.36lon-107.05MT,0.0
+solarlat48.36lon-106.55MT,0.0
+solarlat48.86lon-107.05MT,0.0
+windlat47.04lon-119.26WA,0.0
+windlat47.54lon-119.76WA,0.0
+solarlat48.04lon-119.76WA,0.0
+windlat47.04lon-117.26WA,0.0
+windlat47.54lon-117.76WA,0.0
+windlat48.04lon-118.76WA,0.0
+windlat48.54lon-119.76WA,0.0
+windlat48.54lon-117.76WA,0.0
+solarlat46.54lon-118.76WA,0.0
+solarlat47.04lon-118.26WA,0.0
+solarlat47.54lon-118.76WA,0.0
+solarlat48.04lon-117.76WA,0.0
+solarlat48.54lon-120.26WA,0.0
+solarlat48.54lon-118.26WA,0.0
+windlat47.54lon-121.76WA,0.0
+windlat48.04lon-120.76WA,0.0
+windlat48.54lon-121.76WA,0.0
+solarlat47.04lon-122.26WA,0.0
+solarlat47.04lon-120.26WA,0.0
+solarlat47.54lon-122.76WA,0.0
+solarlat47.54lon-120.76WA,0.0
+solarlat48.04lon-121.76WA,0.0
+solarlat48.54lon-122.26WA,0.0

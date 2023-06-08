@@ -171,7 +171,7 @@ def setKeyParameters():
     maxCapPerTech = {'Wind': 20000 * reDownFactor, 'Solar': 170000 * reDownFactor, 'Thermal': 999999, 'Combined Cycle': 5000000000,
                      'Storage': 100000000, 'Dac': -9999999, 'CCS': 9999999999, 'Nuclear': 9999999999, 'Battery Storage': 1000000000,
                      'Hydrogen': 100000000, 'Transmission': 100000000, 'SR':9999999999, 'Fuel Cell': 9999999999, 'H2 Turbine': 9999999999,
-                     'SMR': 9999999999, 'SMR CCS': 9999999999, 'Electrolyzer': 9999999999}
+                     'SMR': 9999999999, 'SMR CCS': 9999999999, 'Electrolyzer': 9999999999, 'Pipeline': 100000000}
     if buildLimitsCase == 2: maxCapPerTech['Nuclear'] = 0
     elif buildLimitsCase == 3: maxCapPerTech['CCS'], maxCapPerTech['Nuclear'] = 0, 0
     elif buildLimitsCase == 4: maxCapPerTech['Hydrogen'] = 0
